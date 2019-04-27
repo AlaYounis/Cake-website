@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="Css/style.css" type="text/css">
+<title>Home page</title>
+<script type="text/javascript" language="javascript">
+	function login ()
+	{
+		u = document.getElementById("username").value;
+		p = document.getElementById("password").value;
+
+		if((u == "Ala") && (p == "hi"))
+				alert("Welcome");
+		else
+				document.getElementById("result").innerHTML = "Try Agine"
+	}
+</script>
+</head>
+
+<body class="body">
+	
+	<header class="mainHeader">
+		<h1 align="center" style="color: white">HTML Project</h1>
+		<img src="Images/pic1.jpg">
+		<nav>
+			<ul>
+				<li><a href="index2.html">HOME</a></li>
+				<li><a href="#">LEARN</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- //////////////////////////////////////////////////////////// -->	
+	
+	<div class="mainContent">
+		<section class="top-content">
+			<header>
+				<h1><a href="index3.html">Chocolate Cake</a></h1>
+			</header>
+			<footer>
+				<p class="post-info">Written by : Ala Younis </p>
+			</footer>
+			<article>
+				<figure>
+					<a href="Images/cake1.jpg"><img src="Images/cake1.jpg" class="post-img"></a>
+					<a href="Images/cake2.jpg"><img src="Images/cake2.jpg" class="post-img"></a>
+					<a href="Images/cake3.jpg"><img src="Images/cake3.jpg" class="post-img"></a>
+					<figcaption>
+						The Best <span class="bold">Chocolate Cake</span> recipe with decadent Chocolate Frosting that will quickly become your favorite!
+					</figcaption>
+				</figure>
+				<p class="post-content">
+					<a href="index3.html">Read more ..</a>
+				</p>
+			</article>
+		</section>
+		<section class="top-content">
+			<header>
+				<h1><a href="index4.html">Cheesecake</a></h1>
+			</header>
+			<footer>
+				<p class="post-info">Written by : Ala Younis </p>
+			</footer>
+			<article>
+				<figure>
+					<a href="Images/cake4.jpg"><img src="Images/cake4.jpg" class="post-img"></a>
+					<a href="Images/cake5.jpg"><img src="Images/cake5.jpg" class="post-img"></a>
+					<a href="Images/cake6.jpg"><img src="Images/cake6.jpg" class="post-img"></a>
+					<figcaption>
+						With a creamy top and buttery biscuit base, who can resist this classic dessert?
+					</figcaption>
+				</figure>
+				<p class="post-content">
+					<a href="index4.html">Read more ..</a>
+				</p>
+			</article>
+		</section>
+		<section class="top-content">
+			<header>
+				<h1><a href="index5.html">Fruity cake</a></h1>
+			</header>
+			<footer>
+				<p class="post-info">Written by : Ala Younis </p>
+			</footer>
+			<article>
+				<figure>
+					<a href="Images/cake7.jpg"><img src="Images/cake7.jpg" class="post-img"></a>
+					<a href="Images/cake8.jpg"><img src="Images/cake8.jpg" class="post-img"></a>
+					<a href="Images/cake9.jpg"><img src="Images/cake9.jpg" class="post-img"></a>
+					<figcaption>
+						Cakes bursting with fruity flavours.
+					</figcaption>
+				</figure>
+				<p class="post-content">
+					<a href="index5.html">Read more ..</a>
+				</p>
+			</article>
+		</section>
+	</div>
+<!-- //////////////////////////////////////////////////////////// -->
+	
+	<aside>
+		<article class="theSideBar">
+			<h2>Login</h2>
+			<form name="f1">
+				<table>
+					<tr>
+						<td><label>Username</label></td>
+						<td>
+							<input type="text" name="username" id="username" placeholder="Enter Username">
+						</td>
+					</tr>
+					<tr>
+						<td><label>Password</label></td>
+						<td>
+							<input type="password" name="password" id="password" placeholder="Enter Password">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="button" name="save" value="Login" onClick="login()" id="submit">
+						</td>
+						<td>
+							<label id="result"></label>
+						</td>
+						<tr>
+							<td colspan="2">
+								<input type="button" name="sign" value="Sign Up" id="newuser">
+							</td>
+						</tr>
+					</tr>
+				</table>
+			</form>
+		</article>
+	</aside>
+	<aside>
+		<article class="theSideBar">
+			<h1><a href="#">First Side Bar</a></h1>
+			<p>
+				ala younis ala younis ala younis
+				ala younis ala younis ala younis
+				ala younis ala younis ala younis
+			</p>
+		</article>
+	</aside>
+	<aside>
+		<article class="theSideBar">
+			<h1><a href="#">First Side Bar</a></h1>
+			<p>
+				ala younis ala younis ala younis
+				ala younis ala younis ala younis
+				ala younis ala younis ala younis
+			</p>
+		</article>
+	</aside>
+<!-- //////////////////////////////////////////////////////////// -->
+	
+	<footer class="footer">
+		<p>Copy Right</p>
+	</footer>
+</body>
+</html>
